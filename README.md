@@ -1,8 +1,8 @@
 # web-based-LIBRARY-MANAGEMENT-SYSTEM
 
 
-Objective
-tasked with developing a web-based library management system using 
+# Objective
+Tasked with developing a web-based library management system using 
 HTML, CSS, Javascript, PHP and MySQL designed to efficiently manage books and users, 
 providing a seamless experience for both administrators and users.
 The system will include features 
