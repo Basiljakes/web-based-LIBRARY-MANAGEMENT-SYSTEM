@@ -155,6 +155,7 @@ section .sec_image
     background-image: url("../images/4background.jpg");
     height: 851px;
     width: 1000;
+    margin-top: 0px;
 }
 .open
 {
@@ -165,3 +166,11 @@ section .sec_image
     opacity: .69;
 }
 /*===================== student login===========*/
+
+.login_pics
+{
+    height: 1500px;    
+    margin-top: 0px;
+    background-image: url("../images/login_pics1.jpg");
+}
+
