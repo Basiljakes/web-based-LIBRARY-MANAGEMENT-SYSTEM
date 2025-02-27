@@ -13,9 +13,8 @@
 
 <body>
     <header>
-        <div class="logo">
-            <img src="images/1.jpg" height="50" width="120">
-            <h1 style="color: white;">GOSHEN ONLINE LIBRARY MANAGEMENT SYSTEM</h1>
+        <div class="logo">           
+            <h1 style="color: white; font-size: 20px; line-height: 20px; margin-top: 20px;">GOSHEN ONLINE LIBRARY MANAGEMENT SYSTEM</h1>
         </div>
         <nav>
             <ul>
@@ -29,6 +28,9 @@
 
     </header>
     <section>
+        <div class="login_pics">
+
+        </div>
 
 
     </section>
