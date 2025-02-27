@@ -104,25 +104,25 @@ input, select {
 .checker
 {
     height: 900px;
-    width: 1914px;
+    width: 1900px;
     /*background-color: rgb(47, 255, 151);*/
 }
 header
 {
     height: 130px;
-    width: 1914x;
+    width: 1900x;
     background-color: rgba(91, 126, 23, 0.849);
 }
 section
 {
     height: 851px;
-    width: 1914px;
+    width: 1900px;
     /*background-color: lightgoldenrodyellow; */
 }
 footer
 {
     height: 100px;
-    width: 1914x;
+    width: 1900x;
     background-color:#71490e; 
 }
 .logo
@@ -150,9 +150,11 @@ nav li
 {
     display: inline-block;
 }
-section
+section .sec_image
 {
     background-image: url("../images/4background.jpg");
+    height: 851px;
+    width: 1000;
 }
 .open
 {
@@ -162,3 +164,4 @@ section
     margin: 50px auto;
     opacity: .69;
 }
+/*===================== student login===========*/
