@@ -20,30 +20,33 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="">HOME-PAGE</a></li>
-                    <li><a href="">ADMIN-LOGIN</a></li>
-                    <li><a href="">STUDENT-LOGIN</a></li>
-                    <li><a href="">FEEDBACK</a></li>
+                    <li><a href="index.html">HOME-PAGE</a></li>
+                    <li><a href="admin_login.html">ADMIN-LOGIN</a></li>
+                    <li><a href="student_login.html">STUDENT-LOGIN</a></li>
+                    <li><a href="books.html">BOOKS</a></li>
 
                 </ul>
             </nav>
         </header>
         <section>
-            <br><br><br>
-            <div class="open">
+            <div class="sec_image">
                 <br><br><br>
-                <h1 style="text-align: center; font-size: 35px;">WELCOME TO GOSHEN LIBRARY</h1><br><br>
-                <h1 style="text-align: center; font-size: 25px">Opens at 8:00am</h1><br>
-                <h1 style="text-align: center; font-size: 25px">Closes at 6:00pm</h1><br>
+                <div class="open">
+                    <br><br><br>
+                    <h1 style="text-align: center; font-size: 35px;">WELCOME TO GOSHEN LIBRARY</h1><br><br>
+                    <h1 style="text-align: center; font-size: 25px">Opens at 8:00am</h1><br>
+                    <h1 style="text-align: center; font-size: 25px">Closes at 6:00pm</h1><br>
 
+                </div>
             </div>
-            
-
         </section>
         <footer>
-            <p>
-                
+            <p style="color: white; text-align: center;">&copy; 2025 Goshen Online Library Management System <br>
+                Email: &nbsp; &nbsp;GoshenOLMS@gmil.com <br>
+                Mobile: &nbsp; &nbsp;&nbsp; &nbsp;+44.......
             </p>
+            <p style="color: black; text-align: center;">...Reconnecting you to the world through books... </p>
+
 
         </footer>
     </div>
