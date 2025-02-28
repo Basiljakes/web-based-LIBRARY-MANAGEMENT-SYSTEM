@@ -165,12 +165,54 @@ section .sec_image
     margin: 50px auto;
     opacity: .69;
 }
-/*===================== student login===========*/
+/*===================== student login=========================*/
+
+
+.student_area1
+{
+    height: 350px;
+    width: 1000px;
+    background-color: #877a71;
+    margin: 30px auto;
+    opacity: .7;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
 
 .login_pics
 {
-    height: 1500px;    
-    margin-top: 0px;
-    background-image: url("../images/login_pics1.jpg");
+    height: 1500px;
+    width: 1900px;   
+    margin-top: 5px;
+    background-image: url("../images/login_pics2.jpg");
+}
+form .login_form
+{
+   margin: auto 90px; text-align: center; font-size: 20px;
+}
+input
+{
+    height: 20px;
+    width: 250px;
+}
+/*================== registaration =====================*/
+.reg_pics
+{
+    height: 845px;
+    width: 1900px;    
+    margin-top: 5px;
+    background-image: url("../images/registartion.jpg");
+}
+.reg_area
+{
+    height: 650px;
+    width: 1000px;
+    text-align: center;
+    background-color: #333240;
+    margin: 70px auto;
+    opacity: .65;
+    color: white;
+    padding: 20px;
 }
 
