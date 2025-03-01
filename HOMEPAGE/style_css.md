@@ -170,8 +170,8 @@ section .sec_image
 
 .student_area1
 {
-    height: 350px;
-    width: 1000px;
+    height: 600px;
+    width: 800px;
     background-color: #877a71;
     margin: 30px auto;
     opacity: .7;
@@ -207,7 +207,7 @@ input
 .reg_area
 {
     height: 650px;
-    width: 1000px;
+    width: 800px;
     text-align: center;
     background-color: #333240;
     margin: 70px auto;
