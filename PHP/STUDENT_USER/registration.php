@@ -1,5 +1,6 @@
 
 <?php
+ include "connection.php";
  include "navbar.php";
 
 ?>
@@ -72,9 +73,9 @@
                     User Registration form
                 </h1><br>
                 <form name="Registration" action="" method="post">                    
-                    <div class="reg_form">
+                    <div class="reg_form" style="text-color: black;">
                         <label for="firstname">First Name</label>
-                        <input type="text" name="firstname" placeholder="enter first Name" required=""><br><br>
+                        <input type="text" name="firstname" style="text-color: black;"  placeholder="enter first Name" required=""><br><br>
                         <label for="lastname">Last Name</label>
                         <input type="text" name="lastname" placeholder="enter Last Name" required=""><br><br>
                         <label for="email">Email &nbsp; &nbsp; &nbsp;&nbsp;</label>
@@ -93,7 +94,43 @@
             </div>
 
         </div>
+    </section>
 
+    <?php
+        if(isset($_POST['submit']))
+        {
+            $count=0;
+            $sql="SELECT username from `student`";
+            $res=mysqli_query($db,$sql);
+
+            while($row=mysqli_fetch_assoc($res))
+            {
+                if($row['username']==$_POST['username'])
+                {
+                    $count=$count+1;
+                }
+            }
+            if($count==0)
+            {
+                mysqli_query
+                ($db,"INSERT INTO `student` VALUES('$_POST[firstname]', '$_POST[lastname]', '$_POST[email]', '$_POST[username]', '$_POST[password]');");
+                ?>
+                <script type="text/javascript">
+                    alert("Nice your Registration successful");
+                </script>        
+                <?php
+            }
+           else
+            {
+                ?>
+                <script type="text/javascript">
+                    alert("This username already exist.");
+                </script>
+            <?php
+            }
+        }
+    ?>
+   
 
 
 
