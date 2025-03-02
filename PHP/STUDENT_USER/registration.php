@@ -71,7 +71,7 @@
                 <h1 style="text-align: center; font-size: 30px;">
                     User Registration form
                 </h1><br>
-                <form name="Registration" action="" method="">                    
+                <form name="Registration" action="" method="post">                    
                     <div class="reg_form">
                         <label for="firstname">First Name</label>
                         <input type="text" name="firstname" placeholder="enter first Name" required=""><br><br>
